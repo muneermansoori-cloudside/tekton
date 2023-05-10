@@ -1,0 +1,10 @@
+2023-05-04 19:44:52,945 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-05-04 19:44:52,953 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'configure_docker']
+2023-05-04 19:44:52,956 DEBUG    root            Running [gcloud.auth.configure-docker] with arguments: [REGISTRIES: "asia-south1-docker.pkg.dev"]
+2023-05-04 19:44:53,010 INFO     ___FILE_ONLY___ Adding credentials for: asia-south1-docker.pkg.dev
+
+2023-05-04 19:44:56,575 INFO     ___FILE_ONLY___ Docker configuration file updated.
+
+2023-05-04 19:44:56,577 DEBUG    root            Chosen display Format:default
+2023-05-04 19:44:56,578 INFO     root            Display format: "default"
+2023-05-04 19:44:56,579 DEBUG    root            SDK update checks are disabled.

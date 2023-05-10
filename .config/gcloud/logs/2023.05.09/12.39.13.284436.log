@@ -1,0 +1,35 @@
+2023-05-09 12:39:13,291 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-05-09 12:39:13,303 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-05-09 12:39:13,307 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2023-05-09 12:39:13,315 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true
+2023-05-09 12:39:13,317 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-05-09 12:39:13,319 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 141
+2023-05-09 12:39:13,320 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token
+2023-05-09 12:39:13,323 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 866
+2023-05-09 12:39:13,354 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.gstatic.com:443
+2023-05-09 12:39:13,381 DEBUG    urllib3.connectionpool https://www.gstatic.com:443 "GET /cloudsdk/feature_flag_config_file.yaml HTTP/1.1" 200 101
+2023-05-09 12:39:13,395 DEBUG    root            Chosen display Format:default json
+2023-05-09 12:39:13,396 INFO     root            Display format: "default json"
+2023-05-09 12:39:13,396 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "618066333519-compute@developer.gserviceaccount.com",
+        "disable_usage_reporting": "True",
+        "project": "akhilesh123"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.c.b0Aaekm1JJDW-qBY0embUf3A-4-wZ1HMhAVQ-n86ZF48DtKXBRR1oB3JfpAaJgcetsxAGLCVIwyoYS0Eoemwz_1-wxFUftpXtnLlOG1UK3sYjxy4dfBOMmFW9tJnhHZogQaT8nNc3qBYMWuZW4P6yvnpmpYRIK2jFks49sbinM1f8CO0Z6xkL-pc7OEDK4OplyUdJI1eWzDHVFu6kON0-YiF1vsXOTgNK2GpzYoXegw9VxBPLBLKtOd-YogmejVq6eyXazYUK0HNQmIeTO659H7dO3JQol12Lr4fEj7EyX-chRnPzwVjT-H317Acjs6fgWnRwyzJ-dQmfxokVifQ4F4Oxeq0zuYkgkbd1oYfFhUM7jcver87QykY3-eIRv5Fh6yl-kWQbs_r8ZOMvdS6sM9y79Sz0zY8Rlx7xQUOb-zxOUiiuraUVhqXhj1QJzoeaR0RM3mp7xQpgtsiY34RkRMW9iVjY-XR9esuMQ9M_X62By0nBz_xoeByRUxlg6cb_SYlVzwnp0mzwF0svmzRg26t24zx9cMMJXwU0Y491ZixkYM6Sy04BIk_uxc53pa8OnwIOuR62d1dFaMxs4bbfVUqZ1mmMZ0XkbtnauW4MqOYvyuj3qWw0Ovuwej3Wl2bysUuM6l3JYklUJriVbhu_8bwUrQQW4tpMJQjxtkqbqwZ4VOWsMkx7WSsd6m-8OOufjm-3RzF4VeXUtSJtMbvJ5p7iyWYxpfyrxo66RsYBqBOWtvUlivzOM27rWw8jyIzgRi2JFF323Ibybvpoii1gUXpcB-jjf8l4m0lmM5W56dbbff09BjotzBclh6aj_lrdumJz21JuOfuraxJh3Xq_uOO2JalnQizmF_5foR3nZI4BtS2tJzog0VekxvO4QjF-Q6r-X6u8VQu1jRRXI6lQWdJMsZh42ca1t4qokxR6miUiJSljkvzZiayBqcBjpjFc2lhm0iohbfodjjdRopWkWhMJbkQIYhrXuFycFxo4Jpx3YO-X7oOVmasR",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc3NzBiMDg1YmY2NDliNzI2YjM1NzQ3NjQwMzBlMWJkZTlhMTBhZTYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF6cCI6IjEwOTUyMjI3MTc2NzEzOTg1OTEyNSIsImV4cCI6MTY4MzYzOTU1MywiaWF0IjoxNjgzNjM1OTUzLCJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJzdWIiOiIxMDk1MjIyNzE3NjcxMzk4NTkxMjUifQ.IVI-69FowmCR5_fcIW3MG6e41l-1yGSMni7JJBrRwFgQMXXRkEci6FcG444Gg2rIE7T_LpjfBB_SBE6CaHqSuh_EF8g8BEUkIdLm6uDbFcmn8x33N3zhcwoPf3phc8Y3Qkn2kNIkuGSlHh_TjBYrgl-mNqLgn7uVszb43u4JD7bEWz49D1dc96xFh3-Dw0v5m7Fd3O4Os8oxmL46-7kPGmOakfpXHj56QI4zaAhGemAhLgzhV_PxDx273FObSKho-1ltTA_n0rR8rW6zBbpR2PYqlH0JJ48RK4O8oL9TqQExT9fbEODEvFnLnSqSoY6xDVss6LfexroKCXoN4XkBBw",
+    "token_expiry": "2023-05-09T13:39:01Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2023-05-09 12:39:13,397 INFO     ___FILE_ONLY___ 
+
+2023-05-09 12:39:13,397 DEBUG    root            SDK update checks are disabled.

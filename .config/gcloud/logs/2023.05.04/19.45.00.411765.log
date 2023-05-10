@@ -1,0 +1,22 @@
+2023-05-04 19:45:00,412 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-05-04 19:45:00,420 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'docker_helper']
+2023-05-04 19:45:00,422 DEBUG    root            Running [gcloud.auth.docker-helper] with arguments: [METHOD: "get"]
+2023-05-04 19:45:00,435 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true
+2023-05-04 19:45:00,439 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-05-04 19:45:00,440 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 141
+2023-05-04 19:45:00,441 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token
+2023-05-04 19:45:00,444 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 871
+2023-05-04 19:45:00,460 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true
+2023-05-04 19:45:00,462 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-05-04 19:45:00,463 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 141
+2023-05-04 19:45:00,464 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform
+2023-05-04 19:45:00,467 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 871
+2023-05-04 19:45:00,471 DEBUG    root            Chosen display Format:json
+2023-05-04 19:45:00,472 INFO     root            Display format: "json"
+2023-05-04 19:45:00,472 INFO     ___FILE_ONLY___ {
+  "Secret": "ya29.c.b0Aaekm1LOOxr7UJVvrZtWg8SJYdpP9KOJjXNYLgSe2Wm1VHQMfs8IKI75DxLVqtRrd2GVjjYCe4BkcKJoF03aRkByHMdRM9PXqEBKQSa7gDTFG3xdDrAxpgLPTp9otL2iyCIMQAPB0gCE2WdfKT57FrE06A1xuhgEjTIdgr1ejE-f75hA6C9_ou7_t9vWNkBdnVE1GhQgA7NKxg5j4T1jq3szVRG79rje_1sRdEU7cPJfS3Q8dthfOFIHBsRJX4Hv6ekM2mhvqeYDoyWk16KKMRPFDsJT4CD0ZEEFpPPi_voCkfa23lD_L317C6XSO6-7zfjuJ1QoS6BOcmO07Ueskp428RS3VWasn6h12zSRg_Q-wO5ImrvJdgV3bnQo9kSpRb4tsgZB71U3nVROOFbfuyV2UqWvS83ynyxcWkU95vIZqqhfmvlYcuqWjaYlsMJzV9hkOQBcbere2vaoOheku8l654M8ig-wB30QOsYy4yZMRSh8eusriB_QqrxMRMu0OIh1lBYfbXSbJ-_voUeka7fivcJk7W29_3drx7gUZVhaYdssaiU4rSUF_1puuqRbgRd22yiuhrwofFF8m4dZSka0Rdj5nIQ5w7ltbq4vVbgx9BMiVZhrIyudnig9FVfs5yfhmkbkk_Fc6dwZhuRB0vbw-253R2jzoIuUVnu65tja6lilr2l27htjv_IkFrMtu5g_z0bwRBZypj6q1k-zaus9XIQxa30QWbm2QJcglUzfewh5hXUMfOaUzWSBBtRQetMd5YRsf3V7qB9MS-I36-ml9mtInx0iOr3irlRWrpRvsIB3U_umUdMmUomeFQSWjwIgh59J2iRkqfvJ6ealff0e-UbfnF1709FWelhR8_U4hj_QiY5Vyfb31FU6lqnzM8er2jy6dt_MnRzskcYsn2ka0Uh7OMY-m2R767X_V9r-10muZhj-wQdORMQYuJky0ac937VvYexxpR0jpW53Q_ou4sQxn-BOpBo4J79noXrn0nUxsB4wMR4",
+  "Username": "_dcgcloud_token"
+}
+2023-05-04 19:45:00,472 INFO     ___FILE_ONLY___ 
+
+2023-05-04 19:45:00,473 DEBUG    root            SDK update checks are disabled.

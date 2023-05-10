@@ -1,0 +1,24 @@
+2023-05-09 12:39:02,380 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2023-05-09 12:39:02,384 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2023-05-09 12:39:02,399 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true
+2023-05-09 12:39:02,405 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-05-09 12:39:02,407 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 141
+2023-05-09 12:39:02,408 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token
+2023-05-09 12:39:02,429 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 866
+2023-05-09 12:39:02,459 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true
+2023-05-09 12:39:02,461 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2023-05-09 12:39:02,464 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 141
+2023-05-09 12:39:02,465 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token
+2023-05-09 12:39:02,468 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/618066333519-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 866
+2023-05-09 12:39:02,515 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "akhilesh123", --zone: "asia-south1-a", NAME: "aq-gke-private"]
+2023-05-09 12:39:02,538 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2023-05-09 12:39:02,541 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2023-05-09 12:39:04,237 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/akhilesh123/locations/asia-south1-a/clusters/aq-gke-private?alt=json HTTP/1.1" 200 None
+2023-05-09 12:39:04,246 WARNING  root            cluster aq-gke-private is not RUNNING. The kubernetes API may or may not be available. Check the cluster status for more information.
+2023-05-09 12:39:04,427 DEBUG    root            Saved kubeconfig to /root/.kube/config
+2023-05-09 12:39:04,427 INFO     ___FILE_ONLY___ kubeconfig entry generated for aq-gke-private.
+
+2023-05-09 12:39:04,428 DEBUG    root            Chosen display Format:default
+2023-05-09 12:39:04,429 INFO     root            Display format: "default"
+2023-05-09 12:39:04,430 DEBUG    root            SDK update checks are disabled.
