@@ -16,11 +16,11 @@ spec:
                 secretKey: secretToken
             - name: "eventTypes"
               value: ["push"]
-        - ref:
-            name: "cel"
-          params:
-            - name: "filter"
-              value: "body.action in ['opened', 'synchronize', 'reopened']"
+              #        - ref:
+              #  name: "cel"
+              #  params:
+              # - name: "filter"
+              # value: "body.action in ['opened', 'synchronize', 'reopened']"
       bindings:
         - ref: pipeline-binding
       template:

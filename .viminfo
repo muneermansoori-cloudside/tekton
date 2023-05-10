@@ -15,9 +15,9 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1683637994,,"x"
+|2,0,1683696803,,"x"
 :q!
-|2,0,1683636526,,"q!"
+|2,0,1683696772,,"q!"
 :q
 |2,0,1683529966,,"q"
 :wq
@@ -47,38 +47,78 @@ $
 |3,0,3,1,1,0,1683637978,"  annotations:"
 
 # File marks:
-'0  5  0  ~/ingress.yml
-|4,48,5,0,1683637994,"~/ingress.yml"
-'1  15  29  ~/ingress.yml
-|4,49,15,29,1683637758,"~/ingress.yml"
-'2  18  29  ~/ingress.yml
-|4,50,18,29,1683637758,"~/ingress.yml"
-'3  6  34  ~/event-listener.yml
-|4,51,6,34,1683637493,"~/event-listener.yml"
-'4  27  29  ~/event-listener.yml
-|4,52,27,29,1683637457,"~/event-listener.yml"
-'5  27  29  ~/event-listener.yml
-|4,53,27,29,1683637457,"~/event-listener.yml"
-'6  18  7  ~/event-listener.yml
-|4,54,18,7,1683637276,"~/event-listener.yml"
-'7  18  7  ~/event-listener.yml
-|4,55,18,7,1683637276,"~/event-listener.yml"
-'8  18  7  ~/event-listener.yml
-|4,56,18,7,1683637276,"~/event-listener.yml"
-'9  18  7  ~/event-listener.yml
-|4,57,18,7,1683637276,"~/event-listener.yml"
+'0  23  14  ~/event-listener.yml
+|4,48,23,14,1683696803,"~/event-listener.yml"
+'1  19  14  ~/event-listener.yml
+|4,49,19,14,1683696772,"~/event-listener.yml"
+'2  19  14  ~/event-listener.yml
+|4,50,19,14,1683696772,"~/event-listener.yml"
+'3  5  0  ~/ingress.yml
+|4,51,5,0,1683637994,"~/ingress.yml"
+'4  15  29  ~/ingress.yml
+|4,52,15,29,1683637758,"~/ingress.yml"
+'5  18  29  ~/ingress.yml
+|4,53,18,29,1683637758,"~/ingress.yml"
+'6  6  34  ~/event-listener.yml
+|4,54,6,34,1683637493,"~/event-listener.yml"
+'7  6  34  ~/event-listener.yml
+|4,55,6,34,1683637493,"~/event-listener.yml"
+'8  6  34  ~/event-listener.yml
+|4,56,6,34,1683637493,"~/event-listener.yml"
+'9  6  34  ~/event-listener.yml
+|4,57,6,34,1683637493,"~/event-listener.yml"
 
 # Jumplist (newest first):
+-'  23  14  ~/event-listener.yml
+|4,39,23,14,1683696803,"~/event-listener.yml"
+-'  19  13  ~/event-listener.yml
+|4,39,19,13,1683696775,"~/event-listener.yml"
+-'  19  14  ~/event-listener.yml
+|4,39,19,14,1683696772,"~/event-listener.yml"
+-'  6  34  ~/event-listener.yml
+|4,39,6,34,1683696746,"~/event-listener.yml"
+-'  6  34  ~/event-listener.yml
+|4,39,6,34,1683696746,"~/event-listener.yml"
+-'  5  0  ~/ingress.yml
+|4,39,5,0,1683637994,"~/ingress.yml"
+-'  5  0  ~/ingress.yml
+|4,39,5,0,1683637994,"~/ingress.yml"
+-'  5  0  ~/ingress.yml
+|4,39,5,0,1683637994,"~/ingress.yml"
 -'  5  0  ~/ingress.yml
 |4,39,5,0,1683637994,"~/ingress.yml"
 -'  15  29  ~/ingress.yml
 |4,39,15,29,1683637962,"~/ingress.yml"
+-'  15  29  ~/ingress.yml
+|4,39,15,29,1683637962,"~/ingress.yml"
+-'  15  29  ~/ingress.yml
+|4,39,15,29,1683637962,"~/ingress.yml"
+-'  15  29  ~/ingress.yml
+|4,39,15,29,1683637962,"~/ingress.yml"
+-'  18  29  ~/ingress.yml
+|4,39,18,29,1683637758,"~/ingress.yml"
+-'  18  29  ~/ingress.yml
+|4,39,18,29,1683637758,"~/ingress.yml"
+-'  18  29  ~/ingress.yml
+|4,39,18,29,1683637758,"~/ingress.yml"
 -'  18  29  ~/ingress.yml
 |4,39,18,29,1683637758,"~/ingress.yml"
 -'  1  0  ~/ingress.yml
 |4,39,1,0,1683637744,"~/ingress.yml"
 -'  1  0  ~/ingress.yml
 |4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
+-'  1  0  ~/ingress.yml
+|4,39,1,0,1683637744,"~/ingress.yml"
 -'  6  34  ~/event-listener.yml
 |4,39,6,34,1683637493,"~/event-listener.yml"
 -'  6  34  ~/event-listener.yml
@@ -87,6 +127,10 @@ $
 |4,39,6,34,1683637493,"~/event-listener.yml"
 -'  6  34  ~/event-listener.yml
 |4,39,6,34,1683637493,"~/event-listener.yml"
+-'  27  29  ~/event-listener.yml
+|4,39,27,29,1683637471,"~/event-listener.yml"
+-'  27  29  ~/event-listener.yml
+|4,39,27,29,1683637471,"~/event-listener.yml"
 -'  27  29  ~/event-listener.yml
 |4,39,27,29,1683637471,"~/event-listener.yml"
 -'  27  29  ~/event-listener.yml
@@ -119,6 +163,14 @@ $
 |4,39,1,0,1683637446,"~/event-listener.yml"
 -'  1  0  ~/event-listener.yml
 |4,39,1,0,1683637446,"~/event-listener.yml"
+-'  1  0  ~/event-listener.yml
+|4,39,1,0,1683637446,"~/event-listener.yml"
+-'  1  0  ~/event-listener.yml
+|4,39,1,0,1683637446,"~/event-listener.yml"
+-'  18  7  ~/event-listener.yml
+|4,39,18,7,1683637276,"~/event-listener.yml"
+-'  18  7  ~/event-listener.yml
+|4,39,18,7,1683637276,"~/event-listener.yml"
 -'  18  7  ~/event-listener.yml
 |4,39,18,7,1683637276,"~/event-listener.yml"
 -'  18  7  ~/event-listener.yml
@@ -207,58 +259,6 @@ $
 |4,39,1,0,1683637132,"~/event-listener.yml"
 -'  1  0  ~/event-listener.yml
 |4,39,1,0,1683637132,"~/event-listener.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
--'  4  15  ~/secret.yml
-|4,39,4,15,1683637027,"~/secret.yml"
 -'  4  15  ~/secret.yml
 |4,39,4,15,1683637027,"~/secret.yml"
 -'  4  15  ~/secret.yml
@@ -272,19 +272,11 @@ $
 
 # History of marks within files (newest to oldest):
 
-> ~/ingress.yml
-	*	1683637987	0
-	"	5	0
-	^	15	30
-	.	5	0
-	+	15	29
-	+	5	0
-
 > ~/event-listener.yml
-	*	1683637490	0
-	"	6	34
-	^	6	35
-	.	6	34
+	*	1683696800	0
+	"	23	14
+	^	23	15
+	.	23	0
 	+	18	27
 	+	6	9
 	+	7	3
@@ -301,6 +293,19 @@ $
 	+	18	7
 	+	27	29
 	+	6	34
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> ~/ingress.yml
+	*	1683637987	0
+	"	5	0
+	^	15	30
+	.	5	0
+	+	15	29
+	+	5	0
 
 > ~/secret.yml
 	*	1683637019	0
